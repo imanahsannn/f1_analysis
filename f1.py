@@ -2,7 +2,7 @@ import fastf1 as ff1
 from matplotlib import pyplot as plt
 import datetime as dt
 
-ff1.Cache.enable_cache('/Users/iman/Desktop/code/f1/cache')
+ff1.Cache.enable_cache('/Users/iman/Desktop/code/cache')
 
 race_count = ff1.get_event_schedule(2021, include_testing=False).shape[0]
 
